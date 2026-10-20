@@ -1,0 +1,6 @@
+Build notes
+- Native Kotlin Android app; no third-party runtime libraries.
+- compileSdk/targetSdk 35, minSdk 26, Java 17.
+- Data endpoint: https://data-api.binance.vision
+- Public endpoints used: /api/v3/exchangeInfo, /api/v3/ticker/24hr, /api/v3/klines.
+- User requested a phone-only app and options for signals plus future trading. This first version is manual scan + local notification; no background service or order execution.
